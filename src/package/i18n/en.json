@@ -11,6 +11,7 @@
   "Banner.UserInformations.ContactInfosButton": "Edit contact informations",
   "Banner.actions.customize": "Customize",
   "Banner.actions.customize.dialog.title": "Customize your profile",
+  "Banner.ProfileImage.editButton": "Edit profile image",
   "Banner.image.editButton": "Edit banner image",
   "Basics.Back.CodeExperienceYear.noExperience": "No experience (yet!) as developer",
   "Basics.Back.CodeExperienceYear.value": "{codeExperienceYears, plural, one {# year} other {# years} } as a developer",

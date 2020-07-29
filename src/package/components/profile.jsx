@@ -62,6 +62,7 @@ const DeveloperProfileComponent = ({
     onEdit: onEditProps = DEFAULT_FUNCTION,
     onIsEditingChanged = DEFAULT_FUNCTION,
     onCustomizationChanged,
+    onBasicsChanged,
     onFilesUpload,
     additionalNodes,
     classes: receivedGlobalClasses = {}
@@ -94,12 +95,20 @@ const DeveloperProfileComponent = ({
             additionalNodes,
             receivedGlobalClasses,
             customization: options?.customization,
+            basics: options?.basics,
             options: {
                 showContactInfos: options?.showContactInfos,
                 maxSkills: options?.maxSkills
             }
         }),
-        [apiKeys, endpoints, additionalNodes, receivedGlobalClasses, JSON.stringify(options?.customization)]
+        [
+            apiKeys,
+            endpoints,
+            additionalNodes,
+            receivedGlobalClasses,
+            JSON.stringify(options?.customization),
+            JSON.stringify(options?.basics)
+        ]
     );
 
     const data = useMemo(() => originalData, [JSON.stringify(originalData)]);
@@ -111,10 +120,11 @@ const DeveloperProfileComponent = ({
             setIsEditing: setIsEditingWithCallback,
             onEdit,
             onCustomizationChanged,
+            onBasicsChanged,
             onFilesUpload,
             mode
         }),
-        [data, isEditing, onEdit, mode, onCustomizationChanged, onFilesUpload]
+        [data, isEditing, onEdit, mode, onCustomizationChanged, onBasicsChanged, onFilesUpload]
     );
 
     const side = useMemo(() => (isEditing && SIDES.BACK) || options?.side, [options, isEditing]);
@@ -127,6 +137,8 @@ const DeveloperProfileComponent = ({
                         <Banner
                             customizationOptions={options.customization}
                             onCustomizationChanged={onCustomizationChanged}
+                            basicsOptions={options.basics}
+                            onBasicsChanged={onBasicsChanged}
                         />
                         {additionalNodes?.beforeCards}
                         <Cards
@@ -146,6 +158,7 @@ const WithProvidersDeveloperProfile = ({
     data,
     onEdit,
     onCustomizationChanged,
+    onBasicsChanged,
     onIsEditingChanged,
     options = {},
     mode = 'readOnly',
@@ -175,6 +188,7 @@ const WithProvidersDeveloperProfile = ({
                     mode={mode}
                     onEdit={onEdit}
                     onCustomizationChanged={onCustomizationChanged}
+                    onBasicsChanged={onBasicsChanged}
                     onIsEditingChanged={onIsEditingChanged}
                     options={mergedOptions}
                     additionalNodes={additionalNodes}

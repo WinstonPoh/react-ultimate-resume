@@ -5,7 +5,6 @@ import { get } from 'lodash';
 
 import { Typography } from '@welovedevs/ui';
 
-import { Avatar } from '../../../commons/avatar/avatar';
 import { Column } from '../../../commons/column/column';
 import { DeveloperProfileContext } from '../../../../utils/context/contexts';
 
@@ -16,10 +15,11 @@ import { useAdditionalNodes } from '../../../hooks/use_additional_nodes';
 import { ContactInfos } from './contact_infos/contact_infos';
 import { useOptions } from '../../../hooks/use_options';
 import { useIsEditing } from '../../../hooks/use_is_editing';
+import { EditProfileImageButton } from '../../edit_banner_profile_button/edit_banner_profile_button';
 
 const useStyles = createUseStyles(styles);
 
-export const UserInformations = () => {
+export const UserInformations = ({ basicsOptions, onBasicsChanged }) => {
     const { data } = useContext(DeveloperProfileContext);
     const [additionalNodes] = useAdditionalNodes('banner.userInformations', null);
     const [isEditing] = useIsEditing();
@@ -43,7 +43,7 @@ export const UserInformations = () => {
     const classes = useStyles();
     return (
         <div className={classes.container}>
-            <Avatar src={data.basics?.picture} />
+            <EditProfileImageButton basicsOptions={basicsOptions} onBasicsChanged={onBasicsChanged} />
             <Column customClasses={{ container: classes.textColumn }}>
                 <Typography
                     customClasses={{

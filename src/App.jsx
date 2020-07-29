@@ -32,8 +32,9 @@ function App() {
         JSON.stringify(data)
     ]);
     const [customization, setCustomization] = useState(JsonStub.resumeCustomization || {});
-
+    const [basics, setBasics] = useState(JsonStub.basics || {});
     const onCustomizationChanged = useCallback(setCustomization, [data]);
+    const onBasicsChanged = useCallback(setBasics, [data]);
 
     const handleClick = useCallback(async () => {
         // eslint-disable-next-line no-undef
@@ -53,6 +54,7 @@ function App() {
             data={data}
             onEdit={onEdit}
             onCustomizationChanged={onCustomizationChanged}
+            onBasicsChanged={onBasicsChanged}
             options={{
                 // locale: 'tr',
                 // side: 'back',
@@ -67,7 +69,8 @@ function App() {
                 // showContactInfos: true,
                 // maxSkills: 6,
                 customization,
-                maxCardsPerRow: 3
+                maxCardsPerRow: 3,
+                basics
             }}
             additionalNodes={{
                 banner: {

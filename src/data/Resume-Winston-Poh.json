@@ -2,7 +2,11 @@
     "basics": {
         "name": "Winston Poh",
         "label": "Software Engineer",
-        "picture": "https://media.giphy.com/media/AhjXalGPAfJg4/giphy.gif",
+        "picture": {
+            "__url":"https://i.gifer.com/1Zkj.gif",
+            "url":"https://td62ug.ch.files.1drv.com/y4mp-UWpmYNa5pMmws_N75q7v_DSVZfq_wLSnP0mahIu11rRf4PhHrjkUeOMbMTz8kWW4xt-nGwYYzSADCsOZvL7vWrE-oxaFbKQSoO7W0bV_P5Nr51-ebBwhqzIBWZd-YrqYIR4NLyHTQirr9FQH58_KZxuFOZ9UnxnyChUxyClIClAROSa2aTdLbC7PK8e-OE29gA77eYFg3u0pEsC1KREA?width=802&height=676&cropmode=none",
+            "alt": "Default Banner"
+        },
         "email": "winstonthepoh@gmail.com",
         "phone": "(+64) 020 4137 0003",
         "website": "https://winstonpoh.net",
@@ -318,7 +322,7 @@
     "resumeCustomization": {
         "imageHeader": {
             "__url": "https://u95h9a.ch.files.1drv.com/y4mja4Oq_1Zqv1tyPrzmve8AVoynnGxjKO9-pFVrBMzjOmGQ_GCb0UVYizA_zXoWDTe_QMhTAW41VwVw2EkA4K3nKHh0eV8lW-EQyZMdgLPzzuFG_0upPeu0ojAdAS5kSv0btIY_2gy7DGsgMaVjQnlFVDN5m3nxkUw219Qn-5n5QkDH3ChtsuUnpOUrPxkT07G6MbqWl00krHErk7GTJ4QzA?width=1024&height=768&cropmode=none",
-            "url":"https://media.giphy.com/media/AhjXalGPAfJg4/giphy.gif",
+            "url":"https://i.gifer.com/1Zkj.gif",
             "alt": "Default Banner"
         },
         "cardsOrder": [
@@ -365,7 +369,7 @@
         ],
         "fields": {
             "work": {
-                "customDateFormat": "YYYYMMDD"
+                "customDateFormat": "YYYY"
             }
         },
         "theme": {

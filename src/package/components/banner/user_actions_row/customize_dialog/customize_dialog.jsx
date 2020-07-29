@@ -114,7 +114,7 @@ const CustomizeDialogComponent = ({ open, onClose, customizationOptions }) => {
                 }}
             >
                 <Button size="small" onClick={onClose}>
-                    <FormattedMessage id="Main.lang.close" deaultMessage="Close" />
+                    <FormattedMessage id="Main.lang.close" defaultMessage="Close" />
                 </Button>
                 <Button color="primary" variant="contained" size="small" onClick={onSave}>
                     <FormattedMessage id="Main.lang.save" defaultMessage="Save" />

@@ -24,7 +24,7 @@ import { EditButton } from './user_actions_row/edit_button/edit_button';
 
 const useStyles = createUseStyles(styles);
 
-const BannerComponent = ({ customizationOptions, onCustomizationChanged }) => {
+const BannerComponent = ({ customizationOptions, onCustomizationChanged, basicsOptions, onBasicsChanged }) => {
     const classes = useStyles();
     const [mode] = useMode();
     const [actionsButtons] = useAdditionalNodes('banner.actionsButtons', null);
@@ -57,7 +57,7 @@ const BannerComponent = ({ customizationOptions, onCustomizationChanged }) => {
                     )
             )}
             <div className={cn(classes.content, globalReceivedBannerClasses.content)}>
-                <UserInformations />
+                <UserInformations basicsOptions={basicsOptions} onBasicsChanged={onBasicsChanged} />
                 <SocialActions>
                     {actionsButtons}
                     {mode === 'edit' && <EditButton />}
