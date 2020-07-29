@@ -42,6 +42,6 @@ export const remoteDisplayTranslations = defineMessages({
     },
     others: {
         id: 'Developer.RemoteFrequency.Display.other',
-        defaultMessage: 'Autres'
+        defaultMessage: ''
     }
 });

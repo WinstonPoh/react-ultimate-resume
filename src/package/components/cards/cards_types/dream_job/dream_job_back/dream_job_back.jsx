@@ -124,7 +124,7 @@ const DreamJobPlaces = ({ places = [], classes }) => {
             <ProfileCardSectionText>
                 <FormattedMessage
                     id="Dreamjob.Back.Location.OnePlace"
-                    defaultMessage="I want to work in {place}"
+                    defaultMessage="My dream workplace is {place}"
                     values={{ place: firstPlace?.name ?? '' }}
                 />
             </ProfileCardSectionText>
@@ -136,7 +136,7 @@ const DreamJobPlaces = ({ places = [], classes }) => {
             <button className={classes.button} type="button" ref={textAnchor} {...handlers}>
                 <FormattedMessage
                     id="Dreamjob.Back.Location.ManyPlaces"
-                    defaultMessage="I want to work in {place} and {length, plural, one {one other place} other {# other places}}"
+                    defaultMessage="My dream workplace is {place} and {length, plural, one {one other place} other {# other places}}"
                     values={{ place: firstPlace.name, length: remainingPlaces.length }}
                 />
             </button>

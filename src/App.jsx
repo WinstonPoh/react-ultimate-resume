@@ -8,7 +8,7 @@ import cloneDeep from 'lodash/cloneDeep';
 import download from 'downloadjs';
 import { Button } from '@welovedevs/ui';
 
-import JsonStub from './data/json_stub.json';
+import JsonStub from './data/Resume-Winston-Poh.json';
 import DeveloperProfile from './package';
 import { ReactComponent as SaveIcon } from './package/assets/icons/drop_file.svg';
 

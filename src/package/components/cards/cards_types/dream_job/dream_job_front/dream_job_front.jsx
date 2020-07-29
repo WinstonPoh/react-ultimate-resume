@@ -55,7 +55,7 @@ const DreamJobFrontComponent = ({ data }) => {
                 <ProfileCardFrontTypography classes={{ container: classes.typography }}>
                     <FormattedMessage
                         id="DreamJob.Front.Cities"
-                        defaultMessage="I want to work in {cities}{andMore}"
+                        defaultMessage="My dream workplace is {cities}{andMore}"
                         values={{
                             cities: places?.[0]?.name,
                             andMore
