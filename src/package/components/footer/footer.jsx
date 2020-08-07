@@ -31,7 +31,7 @@ const FooterComponent = () => {
                 <div className={classes.wldLogoGithubLogoContainer}>
                     <a
                         className={classes.logoLink}
-                        href="https://welovedevs.com"
+                        href="https://winstonpoh.net"
                         target="_blank"
                         rel="noreferrer noopener"
                     >
@@ -62,7 +62,7 @@ const FooterComponent = () => {
 
     return (
         <div className={classes.container}>
-            <a className={classes.logoLink} href="https://welovedevs.com" target="_blank" rel="noreferrer noopener">
+            <a className={classes.logoLink} href="https://winstonpoh.net" target="_blank" rel="noreferrer noopener">
                 <Logo className={classes.logo} />
             </a>
             <ShareLinks />

@@ -10,11 +10,11 @@
         "email": "winstonthepoh@gmail.com",
         "phone": "(+64) 020 4137 0003",
         "website": "https://winstonpoh.net",
-        "summary": "A dev",
+        "summary": "I'm a software developer",
         "location": {
             "address": "2/227 The Parade, Island Bay",
             "postalCode": "6037",
-            "city": "Wellington, NZ",
+            "city": "Wellington",
             "countryCode": "NZ",
             "region": "Wellington",
             "name": "Wellington, NZ"
@@ -250,7 +250,7 @@
     "projects": [
         {
             "index": 2,
-            "name": "Implementing software feature for user to select objects to process",
+            "name": "Desktop app feature to freeze processes",
             "description": "Seequent's software product has projects which usually has many objects that are linked together. Often certain objects need to reprocess, and previously all child objects would be processed as well. After this feature users save a lot of time not having to wait for the processing of extraneous components.",
             "images": []
         },
