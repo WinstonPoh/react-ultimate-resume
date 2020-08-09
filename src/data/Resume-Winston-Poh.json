@@ -331,7 +331,7 @@
                 "variant": 3
             },
             {
-                "type": "projects",
+                "type": "experiences",
                 "variant": 4
             },
             {
@@ -339,16 +339,16 @@
                 "variant": 0
             },
             {
-                "type": "dreamjob",
-                "variant": 1
+                "type": "studies",
+                "variant": 2
             },
             {
-                "type": "experiences",
+                "type": "projects",
                 "variant": 4
             },
             {
-                "type": "studies",
-                "variant": 2
+                "type": "dreamjob",
+                "variant": 1
             },
             {
                 "type": "gifs",

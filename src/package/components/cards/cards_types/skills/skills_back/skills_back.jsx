@@ -53,7 +53,7 @@ const Content = ({ data, handleAddButtonClick }) => {
     const [springTranslationProps, setSpringTranslationProps] = useSpring(() => ({ yt: 0, config: config.slow }));
 
     const { top3Skills, othersSkills } = useMemo(() => {
-        const newData = [...(data.skills ?? [])];
+        const newData = [...(data.skills.sort((a, b) => b.value - a.value) ?? [])];
         const top3 = newData.splice(0, 3);
         return {
             top3Skills: top3,
