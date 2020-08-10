@@ -3,14 +3,13 @@
         "name": "Winston Poh",
         "label": "Software Engineer",
         "picture": {
-            "__url":"https://i.gifer.com/1Zkj.gif",
             "url":"https://td62ug.ch.files.1drv.com/y4mp-UWpmYNa5pMmws_N75q7v_DSVZfq_wLSnP0mahIu11rRf4PhHrjkUeOMbMTz8kWW4xt-nGwYYzSADCsOZvL7vWrE-oxaFbKQSoO7W0bV_P5Nr51-ebBwhqzIBWZd-YrqYIR4NLyHTQirr9FQH58_KZxuFOZ9UnxnyChUxyClIClAROSa2aTdLbC7PK8e-OE29gA77eYFg3u0pEsC1KREA?width=802&height=676&cropmode=none",
             "alt": "Default Banner"
         },
         "email": "winstonthepoh@gmail.com",
         "phone": "(+64) 020 4137 0003",
         "website": "https://winstonpoh.net",
-        "summary": "I'm a software developer",
+        "summary": "Software developer with 3 years' industrial experience",
         "location": {
             "address": "2/227 The Parade, Island Bay",
             "postalCode": "6037",
@@ -34,10 +33,10 @@
             "website": "http://seequent.com",
             "startDate": "2017-05-21",
             "endDate": "2019-11-01",
-            "summary": "Seequent creates data visualisation software, primarily for geological modeling, geophysics and geostatistics. Worked mostly using Python, and some C/C++, in software design for new features in our software, debugging code and solving problems.",
+            "summary": "Seequent creates scientific data visualisation software, primarily for geological modeling, geophysics and geostatistics. Day-to-day work involves collaboration in a scrum team environment, defining feature specifications, triaging and fixing bugs, writing documentation, writing automated tests and developing new features. Our software is written mostly using Python, and some C/C++.",
             "location": "Christchurch, Aotearoa (New Zealand)",
             "highlights": [
-                "Growing and working with awesome people!"
+                "Growing and working with awesome people to deliver cool 3D modeling and visualisation software that helps geologists, hydrologists, and engineers!"
             ]
         },
         {
@@ -46,10 +45,22 @@
             "website": "https://www.dynamiccontrols.com/",
             "startDate": "2015-11-15",
             "endDate": "2016-02-01",
-            "summary": "Dynamic Controls designs and makes controls for powered wheelchairs. I helped develop a prototype health metric collection system for manual wheelchair users.",
+            "summary": "Dynamic Controls designs and manufactures controls for powered wheelchairs. I helped develop a prototype health metric collection system for manual wheelchair users. The project uses an inertial measurement unit which measures wheel accelerations and transfers it wirelessly via Bluetooth 4 to a Beaglebone single board computer for data storage. The data is then processed with software written in numpy to extract interesting health metrics (like calories burnt, peak power, distance travelled, etc) for manual wheelchair users.",
             "location": "Christchurch, Aotearoa (New Zealand)",
             "highlights": [
                 "Researching health metric collection of manual wheelchair users, using custom made bluetooth PCB on a wheelchair!"
+            ]
+        },
+        {
+            "name": "Christians Against Poverty",
+            "position": "IT Volunteer",
+            "website": "https://www.capnz.org/",
+            "startDate": "2020-03-16",
+            "endDate": "2020-05-01",
+            "summary": "Provided assistance in automating batch processing of emails, webscraping, evaluating CRM solutions, and collection of data. I worked with a number of people across departments to help with high-volume tasks that emerged due to COVID 19. I worked on a few Python task automation projects such as multiprocess webscraping (using requests, urllib3, multiprocessing and concurrent.futures), and automated pdf text extraction, tax receipt processing and bulk emailing (using openpyxl, tika)",
+            "location": "Auckland, Aotearoa (New Zealand)",
+            "highlights": [
+                "Working with a Christian organisation on a mission to alleviate poverty in NZ!"
             ]
         },
         {
@@ -58,10 +69,22 @@
             "website": "https://www.lynnelectrical.co.nz/",
             "startDate": "2014-11-12",
             "endDate": "2015-01-31",
-            "summary": "Lynn Electrical manufactures and supplies industrial & commercial switchboards, switchgear and control panels. As part of the assembling team, I helped build, wire, and test customised switch boards and electrical distribution boards.",
+            "summary": "Lynn Electrical manufactures and supplies industrial & commercial switchboards, switchgear and control panels. As part of the assembling team, I helped build, wire, and test customised switch boards and electrical distribution boards. I learned to use the right connectors, wire sizes, power tools and test equipment for a variety of tasks.",
             "location": "Christchurch, Aotearoa (New Zealand)",
             "highlights": [
-                "Learned how to use many power tools, assemble and test high-power electrical systems and assembly techniques. Worked in a great team to build switchboards."
+                "I learned how to use many power tools, assemble and test high-power electrical systems and assembly techniques. Worked in a great team building switchboards!"
+            ]
+        },
+        {
+            "name": "Impiana Hotel",
+            "position": "Lobby Pianist",
+            "website": "https://ipohhotels.impiana.com.my/",
+            "startDate": "2013-11-20",
+            "endDate": "2014-02-04",
+            "summary": "Playing classical music to entertain hotel guests on weekend evenings!",
+            "location": "Ipoh, Malaysia",
+            "highlights": [
+                "I grew to feel more comfortable performing to casual audiences, on a beautiful grand piano! Children dancing to my playing was definitely unforgettable"
             ]
         }
     ],
@@ -72,9 +95,9 @@
             "website": "https://www.capnz.org/",
             "startDate": "2020-03-16",
             "endDate": "2020-05-01",
-            "summary": "Provided assistance in automating batch processing of emails, webscraping, evaluating CRM solutions, collection of data.",
+            "summary": "Provided assistance in automating batch processing of emails, webscraping, evaluating CRM solutions, and collection of data.",
             "highlights": [
-                "Helped with high-volume tasks that emerged due to COVID 19"
+                "Helped with high-volume tasks that emerged due to COVID 19. A few Python automation projects such as multiprocess webscraping (using requests, urllib3, multiprocessing and concurrent.futures), and automated pdf text extraction, tax receipt processing and bulk emailing (using openpyxl, tika)"
             ]
         }
     ],
@@ -97,7 +120,7 @@
         {
             "institution": "Methodist College Kuala Lumpur",
             "area": "",
-            "studyType": "Western Australian Matriculation ",
+            "studyType": "Western Australian Certificate of Education ",
             "startDate": "2012-01-03",
             "endDate": "2012-11-16",
             "ATAR Score": "92.0",
@@ -129,7 +152,7 @@
         {
             "name": "Python",
             "level": "Experienced",
-            "value": 80,
+            "value": 90,
             "keywords": [
                 "TDD",
                 "OOP",
@@ -143,7 +166,7 @@
         {
             "name": "React",
             "level": "Beginner",
-            "value": 10,
+            "value": 20,
             "keywords": [
                 "HTML",
                 "CSS",
@@ -171,15 +194,23 @@
         {
             "name": "C++",
             "level": "Novice",
-            "value": 35,
+            "value": 50,
             "keywords": [
                 "STL"
             ]
         },
         {
+            "name": "Matlab",
+            "level": "Experienced",
+            "value": 50,
+            "keywords": [
+                ""
+            ]
+        },
+        {
             "name": "Makefile",
             "level": "Novice",
-            "value": 30,
+            "value": 25,
             "keywords": [
                 ""
             ]
@@ -221,16 +252,24 @@
     ],
     "interests": [
         {
-            "name": "Dogs",
-            "gifUrl": "https://media.giphy.com/media/ZNegC7wFpuQT7nurZ0/giphy.gif"
+            "name": "Tramping",
+            "gifUrl": "https://media.giphy.com/media/42IAU2GyaTwXe/giphy.gif"
         },
         {
             "name": "Piano",
             "gifUrl": "https://media.giphy.com/media/RG4UPTI1bpBNbviy3w/giphy.gif"
         },
         {
-            "name": "Tramping",
-            "gifUrl": "https://media.giphy.com/media/42IAU2GyaTwXe/giphy.gif"
+            "name": "Dogs",
+            "gifUrl": "https://media.giphy.com/media/ZNegC7wFpuQT7nurZ0/giphy.gif"
+        },
+        {
+            "name": "Frisbee",
+            "gifUrl": "https://media.giphy.com/media/Jrnm3vFIEA5KE/giphy.gif"
+        },
+        {
+            "name": "Soccer",
+            "gifUrl": "https://media.giphy.com/media/Bk0CW5frw4qfS/giphy.gif"
         }
     ],
     "references": [
@@ -249,30 +288,49 @@
     ],
     "projects": [
         {
-            "index": 2,
+            "index": 0,
             "name": "Desktop app feature to freeze processes",
-            "description": "Seequent's software product has projects which usually has many objects that are linked together. Often certain objects need to reprocess, and previously all child objects would be processed as well. After this feature users save a lot of time not having to wait for the processing of extraneous components.",
-            "images": []
+            "description": "Feature implementation that saves users a lot of time when reloading certain entities in project, by only processing necessary components.",
+            "images": [{"url":"https://www.seequent.com/wp-content/uploads/Blog_Freeze_1.png"}],
+            "link": "https://www.seequent.com/new-feature-freeze-unfreeze-in-leapfrog/"
         },
         {
             "index": 1,
+            "name": "Desktop app notes feature",
+            "description": "Added note-taking feature to desktop application with regex to identify urls and emails into clickable links.",
+            "images": []
+        },
+        {
+            "index": 2,
+            "name": "Desktop app integration with Keynetix",
+            "description": "Feature to integrate drillhole data importing from the Keynetix cloud service using their web service API to our desktop application.",
+            "images": [{"url":"https://www.geoengineer.org/storage/news/1130/featured_image/1394/17b6a71885f45d0c136e6a32c71ba242_XL.jpg"}]
+        },
+        {
+            "index": 3,
+            "name": "Python webscraper",
+            "description": "A webscraper for a debt counseling organisation using futures to concurrently scrape PDF files off a website and process particular content using text extraction.",
+            "images": [{"url":"https://95ltoq.ch.files.1drv.com/y4mLtBY4bXogmSPgBB_ZRaQ_ipPo70NT_xAjOY0L8KfgROBalG7qmlQRgpE0LG6U52g0g9IXGSvAWFVJJa_ixiAFJDcYsqnhKgpkwWASl0G2CRrmNsebm0UGEwuRCk_nBkF3UGXzbz0bpMZR3pAVPm_jW_5R89-cUATW9qOLigPlJRX5vdR4abL6VQpBIs3URj_QH-HNTzlZZP1zZqwSFgFAw?width=750&height=422&cropmode=none"}]
+        },
+        {
+            "index": 4,
             "name": "Robotic Fish",
             "description": "Final year project for university. Robotic fish prototype for collecting video and water samples.",
-            "images": [],
+            "images": [{"url":"https://8jnsxa.ch.files.1drv.com/y4mI0f12R6gQKwbuBuXnOANxMvqeUHf8YynhPtLZU0ayl0WDXUwfhR_zD06T00bKpwFNjZ35iWKng6Q2EMByAWyrCOEqbSBk6QGS3Y70FDi4RjBO7yEk0uA_Qq-njt25n9NdC4UJebXZNIxOEIA_18WrMgImkv31WvDkjmt5RtLiaPYAzUec5TFDB2fB5nC4mAMXgwJpxNwIrgtR33RqZxUqA?width=1005&height=670&cropmode=none"}],
             "link": "https://www.canterbury.ac.nz/media/documents/oexp-engineering/M01-poster_v11.pdf"
         },
         {
-            "index": 0,
+            "index": 5,
             "name": "Whacky Racers Project",
-            "description": "PCB design project for university. Competition for remote control cars run by designed PCBs capable of driving motor, Bluetooth, IR, and camera!",
-            "images": [],
+            "description": "Multilayer PCB design project for university. Competition for remote control cars run by designed PCBs capable of driving motor, Bluetooth, IR, and camera!",
+            "images": [{"url":"https://75nsxa.ch.files.1drv.com/y4mjxRqZFVooVNBeZZSfeRvrHpLtoHwuXHC3Qz3ynBoFYJfp1My5xZlmH7gNCqVEDU3barcR2TU0iQFeAKrTcTYTeBsmb9fq1xCNUbwIBn9zcmsVKIagJ3Lr5PXF-w1n3f_6oLkQO9RLSeN9cYohcyS7HtPTBU_UpxzhQwOd_ZlkbydhBrJ9n_8wN2BZBdnL19GJvEfuO23SxOXZlqtDlcynA?width=1024&height=650&cropmode=none"},{"url":"https://pjltoq.ch.files.1drv.com/y4mn14tmr3JhSLE8EwDU-u1kQDHdk390P5z7ji_m5YBjVhm80Fi3yOx8dRrGhEwqsjZKuLpcl7a9LSVzQPe93Z_FfH-Gbfm43W_3hWMQB2feAfcNGrN7AnglpddUICJ0XuOmEoLD07uElv5ErcZwPl98QcKPZsaZnj1xIUDgY2JoCf6gpvTnkWqJ28I4C_i_1A2KfcvdVX8HLWYlWCXHkEh2w?width=480&height=270&cropmode=none"}],
             "link": "https://www.youtube.com/watch?v=wKT7xhuJDG8"
         }
     ],
     "specific": {
         "basics": {
             "visaSponsorship": false,
-            "personalDescription": "I am a Christian, with a childhood in Malaysia, an education in Mechatronics, experience in desktop application development, and a passion for piano and the great New Zealand Outdoors!"
+            "personalDescription": "I am a software engineer with 3 years' experience in the industry of scientific desktop application development. I have collaborated across many teams to discuss design, define software specifications, write automated tests and develop robust, readable software with many other engineers. I have a strong passion for people, learning, solving problems, and helping people!"
         },
         "dreamJob": {
             "locations": [
@@ -307,12 +365,12 @@
             "contractTypes": [
                 "permanent"
             ],
-            "codingYears": 7,
-            "codingReason": "For the love of mankind! Make the world betterer!",
+            "codingYears": 0,
+            "codingReason": "",
             "searchState": "activelySearching",
-            "experienceYears": 3,
-            "codeExperienceYears": 3,
-            "otherExperienceYears": 4
+            "experienceYears": 0,
+            "codeExperienceYears": 0,
+            "otherExperienceYears": 0
         },
         "sound": {
             "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DX5MwHlrzAPLQ"
@@ -321,8 +379,8 @@
     },
     "resumeCustomization": {
         "imageHeader": {
-            "__url": "https://u95h9a.ch.files.1drv.com/y4mja4Oq_1Zqv1tyPrzmve8AVoynnGxjKO9-pFVrBMzjOmGQ_GCb0UVYizA_zXoWDTe_QMhTAW41VwVw2EkA4K3nKHh0eV8lW-EQyZMdgLPzzuFG_0upPeu0ojAdAS5kSv0btIY_2gy7DGsgMaVjQnlFVDN5m3nxkUw219Qn-5n5QkDH3ChtsuUnpOUrPxkT07G6MbqWl00krHErk7GTJ4QzA?width=1024&height=768&cropmode=none",
-            "url":"https://i.gifer.com/1Zkj.gif",
+            "__url":"https://i.gifer.com/1Zkj.gif",
+            "url": "https://wraxrq.ch.files.1drv.com/y4mlBQEx1r5KrUs4_vl6DuhVHqHuLF8UB14SZHGmJPUjZm_3y2SQrzLJAHhMcwnHSE0N8soICeVRBxDFs9IcKuG9KvcFpqlFfaISKhp4WMGAe7pIcKTSQs4KiCYUWb1622vmaHDVJJC6S5Fscyl5BBzcgAiLwQ5D7C_9aFjVug4QdgUg7kHHk3moPp9zzFdyGA1gAK_fcHxwSfTmiZZfSc6sA?width=4032&height=3024&cropmode=none",
             "alt": "Default Banner"
         },
         "cardsOrder": [
@@ -345,10 +403,6 @@
             {
                 "type": "projects",
                 "variant": 4
-            },
-            {
-                "type": "dreamjob",
-                "variant": 1
             },
             {
                 "type": "gifs",

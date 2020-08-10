@@ -36,24 +36,32 @@ export const EditProfileImageButton = ({ basicsOptions }) => {
 
     const handleMouseDown = useCallback(() => setSpringProps(SPRING_PROPS.active), []);
     const handleMouseUp = useCallback(() => setSpringProps(SPRING_PROPS.default), []);
-    return (
-        <>
-            <EditProfileImageDialog open={open} onClose={onClose} value={basicsOptions.picture} onChange={onChange} />
-            {mode === 'edit' && (
-                <animated.button
-                    type="button"
-                    className={cn(classes.container, globalReceivedClasses.container)}
-                    onClick={onOpen}
-                    onMouseDown={handleMouseDown}
-                    onMouseUp={handleMouseUp}
-                    onMouseLeave={handleMouseUp}
-                    style={{
-                        transform: springProps.scale.to((value) => `scale3d(${value}, ${value}, ${value})`)
-                    }}
-                >
-                    <Avatar src={basicsOptions?.picture?.url} />
-                </animated.button>
-            )}
-        </>
-    );
+    if (mode === 'edit') {
+        return (
+            <>
+                <EditProfileImageDialog
+                    open={open}
+                    onClose={onClose}
+                    value={basicsOptions.picture}
+                    onChange={onChange}
+                />
+                {mode === 'edit' && (
+                    <animated.button
+                        type="button"
+                        className={cn(classes.container, globalReceivedClasses.container)}
+                        onClick={onOpen}
+                        onMouseDown={handleMouseDown}
+                        onMouseUp={handleMouseUp}
+                        onMouseLeave={handleMouseUp}
+                        style={{
+                            transform: springProps.scale.to((value) => `scale3d(${value}, ${value}, ${value})`)
+                        }}
+                    >
+                        <Avatar src={basicsOptions?.picture?.url} />
+                    </animated.button>
+                )}
+            </>
+        );
+    }
+    return <Avatar src={basicsOptions?.picture?.url} />;
 };
