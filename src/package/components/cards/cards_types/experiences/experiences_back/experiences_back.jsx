@@ -22,7 +22,7 @@ const ExperienceContent = ({ experience, variant, classes }) => {
     const { formatMessage } = useIntl();
     const [buildTitle] = useAdditionalNodes('cards.experiences.back.experience.content.buildTitle', null);
     const [customization] = useCustomization();
-    const { id, name, summary, place, position } = experience;
+    const { id, name, summary, highlights, place, position } = experience;
     const dateString = useMemo(() => {
         const displayFormat = customization?.fields?.work?.customDateFormat || 'MMM YYYY';
         if (!experience.endDate) {
@@ -63,6 +63,10 @@ const ExperienceContent = ({ experience, variant, classes }) => {
                 {title}
             </ProfileCardSectionSubtitle>
             <ProfileCardSectionText>{summary}</ProfileCardSectionText>
+            <div className={classes.highlights}>
+                <h4>{'Highlights'}</h4>
+                <ProfileCardSectionText>{highlights}</ProfileCardSectionText>
+            </div>
         </ProfileCardSection>
     );
 };

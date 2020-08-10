@@ -9,7 +9,7 @@ import { useMediaQuery } from '@material-ui/core';
 
 import { ShareLinks } from './share_links/share_links';
 
-import { ReactComponent as Logo } from '../../assets/icons/brands/welovedevs.svg';
+import { ReactComponent as Logo } from '../../assets/icons/brands/kiwi_svg.svg';
 import { ReactComponent as GithubLogo } from '../../assets/icons/brands/github.svg';
 
 import { styles } from './footer_styles';

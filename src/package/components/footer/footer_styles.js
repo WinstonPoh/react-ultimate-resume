@@ -31,7 +31,7 @@ export const styles = (theme) => {
             display: 'flex'
         },
         logo: {
-            height: 26,
+            height: 80,
             width: 'unset',
             '& > g': {
                 stroke: 'currentColor'
