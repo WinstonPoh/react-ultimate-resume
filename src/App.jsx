@@ -69,7 +69,7 @@ function App() {
                 // showContactInfos: true,
                 // maxSkills: 6,
                 customization,
-                maxCardsPerRow: 2,
+                maxCardsPerRow: 3,
                 basics
             }}
             additionalNodes={{

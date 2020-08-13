@@ -11,7 +11,8 @@ export const styles = (theme) => {
         container: ({ variant }) => {
             const { backgroundColor, color } = getColorsFromCardVariant(theme, variant);
             return {
-                width,
+                width: width * 0.8,
+                height: width,
                 position: 'relative',
                 margin: theme.miscellaneous.spacing * 2,
                 borderRadius: theme.components.cards.borderRadius,

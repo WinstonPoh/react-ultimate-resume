@@ -12,9 +12,9 @@ import { JssProvider, ThemeProvider as ReactJSSThemeProvider } from 'react-jss';
 import jssDefaultPreset from 'jss-preset-default';
 
 const muiInstance = create(jssDefaultPreset());
-muiInstance.setup({ insertionPoint: 'mui-insertion-point' });
+// muiInstance.setup({ insertionPoint: 'mui-insertion-point' });
 const jssinstance = create(jssDefaultPreset());
-jssinstance.setup({ insertionPoint: 'jss-insertion-point' });
+// jssinstance.setup({ insertionPoint: 'jss-insertion-point' });
 
 export const theme = createMuiTheme({
     ...DEFAULT_THEME,
@@ -27,8 +27,8 @@ export const theme = createMuiTheme({
 });
 
 ReactDOM.render(
-    <MuiStylesProvider jss={muiInstance}>
-        <JssProvider jss={jssinstance}>
+    <MuiStylesProvider jss={muiInstance} injectFirst>
+        <JssProvider jss={jssinstance} injectFirst>
             <ThemeProvider {...{ theme }}>
                 <App />
             </ThemeProvider>
