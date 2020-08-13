@@ -30,7 +30,7 @@ export const DEFAULT_THEME = Object.freeze({
         cards: {
             height: 470,
             width: 470,
-            borderRadius: 50,
+            borderRadius: 30,
             default: {
                 backgroundColor: 'dark',
                 color: 'light',
